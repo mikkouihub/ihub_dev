@@ -1,9 +1,14 @@
 <?php
 
+// $dbServername = "127.0.0.1";
+// $dbUsername = "root";
+// $dbPassword = "";
+// $dbName = "dev_ihub";
+
 $dbServername = "127.0.0.1";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "dev_ihub";
+$dbUsername = "arkaph_dev_uihub";
+$dbPassword = "nM}MjBT(e9V[";
+$dbName = "arkaph_dev_uihub";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 //$connect = new PDO('mysql:host=localhost;dbname=filceb_database', 'root', '');
