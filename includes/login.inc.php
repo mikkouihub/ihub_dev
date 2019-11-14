@@ -21,11 +21,11 @@ if (isset($_POST['login_btn'])) {
       $type = $row['user_type'];
 
       if ($type === 'Student') {
-        header("Location: ../student-home.php");
+        header("Location: ../profile/student.php");
       } elseif ($type === 'Mentor') {
-        header("Location: ../mentor-home.php");
+        header("Location: ../profile/mentor.php");
       } elseif ($type === 'Company') {
-        header("Location: ../company-home.php");
+        header("Location: ../profile/company.php");
       }
     }
   }
