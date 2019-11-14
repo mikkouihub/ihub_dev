@@ -17,5 +17,5 @@ if (isset($_POST['register_btn'])) {
     mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $password, $type);
     mysqli_stmt_execute($stmt);
   }
-  // header("Location: ../index.php");
+  header("Location: ../index.php");
 }
